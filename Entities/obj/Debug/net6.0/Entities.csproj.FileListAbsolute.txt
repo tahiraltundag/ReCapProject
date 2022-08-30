@@ -1,0 +1,12 @@
+/home/tahir/RiderProjects/ReCapProject/Entities/bin/Debug/net6.0/Entities.deps.json
+/home/tahir/RiderProjects/ReCapProject/Entities/bin/Debug/net6.0/Entities.dll
+/home/tahir/RiderProjects/ReCapProject/Entities/bin/Debug/net6.0/ref/Entities.dll
+/home/tahir/RiderProjects/ReCapProject/Entities/bin/Debug/net6.0/Entities.pdb
+/home/tahir/RiderProjects/ReCapProject/Entities/obj/Debug/net6.0/Entities.csproj.AssemblyReference.cache
+/home/tahir/RiderProjects/ReCapProject/Entities/obj/Debug/net6.0/Entities.GeneratedMSBuildEditorConfig.editorconfig
+/home/tahir/RiderProjects/ReCapProject/Entities/obj/Debug/net6.0/Entities.AssemblyInfoInputs.cache
+/home/tahir/RiderProjects/ReCapProject/Entities/obj/Debug/net6.0/Entities.AssemblyInfo.cs
+/home/tahir/RiderProjects/ReCapProject/Entities/obj/Debug/net6.0/Entities.csproj.CoreCompileInputs.cache
+/home/tahir/RiderProjects/ReCapProject/Entities/obj/Debug/net6.0/Entities.dll
+/home/tahir/RiderProjects/ReCapProject/Entities/obj/Debug/net6.0/ref/Entities.dll
+/home/tahir/RiderProjects/ReCapProject/Entities/obj/Debug/net6.0/Entities.pdb

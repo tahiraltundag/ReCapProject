@@ -1,0 +1,237 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/tahir/RiderProjects/ReCapProject/ConsoleUI/ConsoleUI.csproj": {}
+  },
+  "projects": {
+    "/home/tahir/RiderProjects/ReCapProject/Business/Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/tahir/RiderProjects/ReCapProject/Business/Business.csproj",
+        "projectName": "Business",
+        "projectPath": "/home/tahir/RiderProjects/ReCapProject/Business/Business.csproj",
+        "packagesPath": "/home/tahir/.nuget/packages/",
+        "outputPath": "/home/tahir/RiderProjects/ReCapProject/Business/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/tahir/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/tahir/RiderProjects/ReCapProject/DataAccess/DataAccess.csproj": {
+                "projectPath": "/home/tahir/RiderProjects/ReCapProject/DataAccess/DataAccess.csproj"
+              },
+              "/home/tahir/RiderProjects/ReCapProject/Entities/Entities.csproj": {
+                "projectPath": "/home/tahir/RiderProjects/ReCapProject/Entities/Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/tahir/.dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/tahir/RiderProjects/ReCapProject/ConsoleUI/ConsoleUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/tahir/RiderProjects/ReCapProject/ConsoleUI/ConsoleUI.csproj",
+        "projectName": "ConsoleUI",
+        "projectPath": "/home/tahir/RiderProjects/ReCapProject/ConsoleUI/ConsoleUI.csproj",
+        "packagesPath": "/home/tahir/.nuget/packages/",
+        "outputPath": "/home/tahir/RiderProjects/ReCapProject/ConsoleUI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/tahir/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/tahir/RiderProjects/ReCapProject/Business/Business.csproj": {
+                "projectPath": "/home/tahir/RiderProjects/ReCapProject/Business/Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/tahir/.dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/tahir/RiderProjects/ReCapProject/DataAccess/DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/tahir/RiderProjects/ReCapProject/DataAccess/DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "/home/tahir/RiderProjects/ReCapProject/DataAccess/DataAccess.csproj",
+        "packagesPath": "/home/tahir/.nuget/packages/",
+        "outputPath": "/home/tahir/RiderProjects/ReCapProject/DataAccess/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/tahir/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/tahir/RiderProjects/ReCapProject/Entities/Entities.csproj": {
+                "projectPath": "/home/tahir/RiderProjects/ReCapProject/Entities/Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/tahir/.dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/tahir/RiderProjects/ReCapProject/Entities/Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/tahir/RiderProjects/ReCapProject/Entities/Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "/home/tahir/RiderProjects/ReCapProject/Entities/Entities.csproj",
+        "packagesPath": "/home/tahir/.nuget/packages/",
+        "outputPath": "/home/tahir/RiderProjects/ReCapProject/Entities/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/tahir/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/tahir/.dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

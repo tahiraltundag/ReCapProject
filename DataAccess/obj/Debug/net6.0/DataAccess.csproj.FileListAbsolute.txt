@@ -1,0 +1,15 @@
+/home/tahir/RiderProjects/ReCapProject/DataAccess/bin/Debug/net6.0/DataAccess.deps.json
+/home/tahir/RiderProjects/ReCapProject/DataAccess/bin/Debug/net6.0/DataAccess.dll
+/home/tahir/RiderProjects/ReCapProject/DataAccess/bin/Debug/net6.0/ref/DataAccess.dll
+/home/tahir/RiderProjects/ReCapProject/DataAccess/bin/Debug/net6.0/DataAccess.pdb
+/home/tahir/RiderProjects/ReCapProject/DataAccess/bin/Debug/net6.0/Entities.dll
+/home/tahir/RiderProjects/ReCapProject/DataAccess/bin/Debug/net6.0/Entities.pdb
+/home/tahir/RiderProjects/ReCapProject/DataAccess/obj/Debug/net6.0/DataAccess.csproj.AssemblyReference.cache
+/home/tahir/RiderProjects/ReCapProject/DataAccess/obj/Debug/net6.0/DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/home/tahir/RiderProjects/ReCapProject/DataAccess/obj/Debug/net6.0/DataAccess.AssemblyInfoInputs.cache
+/home/tahir/RiderProjects/ReCapProject/DataAccess/obj/Debug/net6.0/DataAccess.AssemblyInfo.cs
+/home/tahir/RiderProjects/ReCapProject/DataAccess/obj/Debug/net6.0/DataAccess.csproj.CoreCompileInputs.cache
+/home/tahir/RiderProjects/ReCapProject/DataAccess/obj/Debug/net6.0/DataAccess.csproj.CopyComplete
+/home/tahir/RiderProjects/ReCapProject/DataAccess/obj/Debug/net6.0/DataAccess.dll
+/home/tahir/RiderProjects/ReCapProject/DataAccess/obj/Debug/net6.0/ref/DataAccess.dll
+/home/tahir/RiderProjects/ReCapProject/DataAccess/obj/Debug/net6.0/DataAccess.pdb
