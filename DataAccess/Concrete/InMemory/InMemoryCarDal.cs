@@ -1,3 +1,4 @@
+using System.Linq.Expressions;
 using DataAccess.Abstract;
 using Entities.Concrete;
 
@@ -33,7 +34,7 @@ public class InMemoryCarDal : CarDal
     {
         throw new NotImplementedException();
     }
-
+    
     public void Add(Car car)
     {
         cars.Add(car);
@@ -53,5 +54,15 @@ public class InMemoryCarDal : CarDal
         carToUpdate.DailyPrice = car.DailyPrice;
         carToUpdate.ModelYear = car.ModelYear;
         carToUpdate.Description = car.Description;
+    }
+    
+    public List<Car> GetAll(Expression<Func<Car, bool>> filter = null)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Car Get(Expression<Func<Car, bool>> filter)
+    {
+        throw new NotImplementedException();
     }
 }
