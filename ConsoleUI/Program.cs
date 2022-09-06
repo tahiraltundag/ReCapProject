@@ -14,18 +14,28 @@ class Program
     private static void BrandTest()
     {
         BrandManager brandManager = new BrandManager(new EfBrandDal());
-        foreach (var brand in brandManager.GetAll())
+
+        var result = brandManager.GetAll();
+        if (result.Success==true)
         {
-            Console.WriteLine(brand.Name);
+            foreach (var brand in result.Data)
+            {
+                Console.WriteLine(brand.Name);
+            }
         }
     }
 
     private static void ColorTest()
     {
         ColorManager colorManager = new ColorManager(new EfColorDal());
-        foreach (var color in colorManager.GetAll())
+
+        var result = colorManager.GetAll();
+        if (result.Success == true)
         {
-            Console.WriteLine(color.Name);
+            foreach (var color in result.Data)
+            {
+                Console.WriteLine(color.Name);
+            }
         }
     }
 
@@ -33,9 +43,13 @@ class Program
     {
         CarManager carManager = new CarManager(new EfCarDal());
 
-        foreach (Car car in carManager.GetAll())
+        var result = carManager.GetAll();
+        if (result.Success == true)
         {
-            Console.WriteLine(car.Description);
+            foreach (Car car in result.Data)
+            { 
+                Console.WriteLine(car.Description);
+            }
         }
     }
 }

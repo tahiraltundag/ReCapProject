@@ -1,11 +1,14 @@
 using Business.Abstract;
+using Business.Constants;
+using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
 
 namespace Business.Concrete;
 
 public class BrandManager : BrandService
-{
+{ 
+    
     BrandDal brandDal;
 
     public BrandManager(BrandDal brandDal)
@@ -13,28 +16,30 @@ public class BrandManager : BrandService
         this.brandDal = brandDal;
     }
     
-    public List<Brand> GetAll()
-    {
-        return brandDal.GetAll();
+    public IDataResult<List<Brand>> GetAll() {
+        return new SuccessDataResult<List<Brand>>(brandDal.GetAll(), Messages.BrandListed);
     }
 
-    public List<Brand> GetById(int id)
+    public IDataResult<List<Brand>> GetById(int id)
     {
-        return brandDal.GetAll(b => b.Id == id).ToList();
+        return new SuccessDataResult<List<Brand>>(brandDal.GetAll(b => b.Id == id).ToList());
     }
 
-    public void Add(Brand brand)
+    public IResult Add(Brand brand)
     {
         brandDal.Add(brand);
+        return new SuccessResult(Messages.BrandAdded);
     }
 
-    public void Update(Brand brand)
+    public IResult Update(Brand brand)
     {
         brandDal.Update(brand);
+        return new SuccessResult(Messages.BrandUpdated);
     }
 
-    public void Delete(Brand brand)
+    public IResult Delete(Brand brand)
     {
         brandDal.Delete(brand);
+        return new SuccessResult(Messages.BrandDeleted);
     }
 }
