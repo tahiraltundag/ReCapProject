@@ -21,5 +21,27 @@ public class Messages
     public static string ColorAdded = "Renk eklendi";
     public static string ColorDeleted = "Renk silindi";
     public static string ColorUpdate = "Renk güncellendi";
-    
+
+    public static string CustomerListed = "Müşteriler Listelendi";
+    public static string CustomerListedById = "Müşteriler id ye göre listelendi";
+    public static string CustomerAdded = "Müşteri eklendi";
+    public static string CustomerUpdated = "Müşteri bilgileri güncellendi";
+    public static string CustomerDeleted = "Müşteri silind";
+
+    public static string RentalListed = "Kiralanmalar listelendi";
+    public static string RentalListedById = "İstenilen kiralama listelendi";
+    public static string RentalAdded = "Kiralama eklendi";
+    public static string RentalNotAdded = "Kiralama işlemi gerçekleşmedi";
+    public static string RentalUpdated = "Kiralama bilgileri güncellendi";
+    public static string RentalDeleted = "Kiralama bilgileri silindi";
+
 }
+
+
+
+
+
+
+
+
+
